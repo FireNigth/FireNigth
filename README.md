@@ -14,6 +14,18 @@
 
 ---
 
+<div align="center">
+
+### GitHub stats
+
+<img src="./assets/stats.svg" width="467" alt="Public GitHub statistics for FireNigth" />
+
+<sub>Public activity · refreshed weekly</sub>
+
+</div>
+
+---
+
 ### Featured project
 
 **[Repo Security Review](https://github.com/FireNigth/Security-review)**  
