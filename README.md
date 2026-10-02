@@ -36,5 +36,15 @@ A read-only security review skill for AI coding agents. It traces findings to co
 ---
 
 <div align="center">
+
+### Contribution activity
+
+<img src="./assets/contribution-snake.svg" width="100%" alt="Animated snake tracing public GitHub contributions" />
+
+</div>
+
+---
+
+<div align="center">
 <sub>Clear evidence. Useful findings. Practical fixes.</sub>
 </div>
