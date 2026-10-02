@@ -2,20 +2,24 @@
 
 # FireNigth
 
-**Building practical tools for software security.**
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1400&color=A3E635&center=true&vCenter=true&width=520&height=32&lines=Evidence-first+security+reviews;Tools+for+AI+coding+agents" alt="Evidence-first security reviews · Tools for AI coding agents" />
 
-[![Featured project](https://img.shields.io/badge/FEATURED-Repo_Security_Review-18181b?style=flat-square&logo=github&logoColor=white)](https://github.com/FireNigth/Security-review)
+<br />
+
+![Focus](https://img.shields.io/badge/focus-application_security-18181b?style=flat-square&labelColor=18181b&color=A3E635)
+![Approach](https://img.shields.io/badge/approach-evidence--first-18181b?style=flat-square&labelColor=18181b&color=8b949e)
+![Scope](https://img.shields.io/badge/scope-read--only-18181b?style=flat-square&labelColor=18181b&color=8b949e)
 
 </div>
 
 ---
 
-### Selected work
+### Featured project
 
 **[Repo Security Review](https://github.com/FireNigth/Security-review)**  
-An evidence-first, read-only security review skill for AI coding agents. It focuses on findings that can be traced to code, with clear impact and practical remediation.
+A read-only security review skill for AI coding agents. It traces findings to code evidence and gives practical remediation guidance.
 
-`Secure code review` · `Developer tooling` · `AI coding agents`
+[Explore the project →](https://github.com/FireNigth/Security-review)
 
 ---
 
