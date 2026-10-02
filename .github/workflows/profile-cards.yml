@@ -3,7 +3,6 @@ name: Update profile cards
 on:
   push:
     paths:
-      - "README.md"
       - ".github/workflows/profile-cards.yml"
   schedule:
     - cron: "17 6 * * 1"
@@ -26,10 +25,16 @@ jobs:
           path: assets/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit card
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: assets/contribution-snake.svg?palette=github-dark&color_snake=a3e635
+
+      - name: Commit profile graphics
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/stats.svg
-          git commit -m "Update profile stats" || exit 0
+          git add assets/stats.svg assets/contribution-snake.svg
+          git commit -m "Update profile graphics" || exit 0
           git push
