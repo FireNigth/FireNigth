@@ -1,16 +1,24 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**FireNigth/FireNigth** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# FireNigth
 
-Here are some ideas to get you started:
+**Building practical tools for software security.**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[![Featured project](https://img.shields.io/badge/FEATURED-Repo_Security_Review-18181b?style=flat-square&logo=github&logoColor=white)](https://github.com/FireNigth/Security-review)
+
+</div>
+
+---
+
+### Selected work
+
+**[Repo Security Review](https://github.com/FireNigth/Security-review)**  
+An evidence-first, read-only security review skill for AI coding agents. It focuses on findings that can be traced to code, with clear impact and practical remediation.
+
+`Secure code review` · `Developer tooling` · `AI coding agents`
+
+---
+
+<div align="center">
+<sub>Clear evidence. Useful findings. Practical fixes.</sub>
+</div>
