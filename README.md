@@ -37,6 +37,29 @@ A read-only security review skill for AI coding agents. It traces findings to co
 
 <div align="center">
 
+### Technologies
+
+<strong>DriftLock · built with</strong><br />
+<img src="https://skillicons.dev/icons?i=go&theme=dark" height="38" alt="Go" />
+
+<br />
+
+<strong>Languages it scans</strong><br />
+<img src="https://skillicons.dev/icons?i=java,py,ts,cs,c,cpp&theme=dark" height="38" alt="Java, Python, TypeScript, C sharp, C, and C plus plus" />
+
+<br />
+
+<strong>AI providers</strong><br />
+![Gemini](https://img.shields.io/badge/Gemini-supported-18181b?style=flat-square&logo=googlegemini&logoColor=8b949e)
+![OpenAI](https://img.shields.io/badge/OpenAI-supported-18181b?style=flat-square&logo=openai&logoColor=8b949e)
+![Ollama](https://img.shields.io/badge/Ollama-supported-18181b?style=flat-square&logo=ollama&logoColor=8b949e)
+
+</div>
+
+---
+
+<div align="center">
+
 ### Contribution activity
 
 <img src="./assets/contribution-snake.svg" width="100%" alt="Animated snake tracing public GitHub contributions" />
