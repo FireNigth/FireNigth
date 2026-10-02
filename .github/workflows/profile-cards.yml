@@ -22,22 +22,14 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_title=true&hide_border=true&theme=github_dark&bg_color=0d1117&title_color=a3e635&icon_color=a3e635
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_title=true&hide_border=true&hide_rank=true&hide=prs,issues,contribs&theme=github_dark&bg_color=0d1117&title_color=a3e635&icon_color=a3e635
           path: assets/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate language card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=4&hide_border=true&theme=github_dark&bg_color=0d1117&title_color=a3e635
-          path: assets/languages.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Commit cards
+      - name: Commit card
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/stats.svg assets/languages.svg
-          git commit -m "Update profile cards" || exit 0
+          git add assets/stats.svg
+          git commit -m "Update profile stats" || exit 0
           git push
